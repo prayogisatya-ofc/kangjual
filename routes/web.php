@@ -20,6 +20,14 @@ Route::get('/', [HomeController::class, 'index'])->name('home_view');
 Route::get('/project', [ProductController::class, 'indexProject'])->name('project_view');
 Route::get('/template', [ProductController::class, 'indexTemplate'])->name('template_view');
 
+Route::get('/privacy-policy', function(){
+    return view('privacypolicy', ['title' => 'Privacy Policy']);
+})->name('privacy_policy_views');
+
+Route::get('/terms-conditions', function(){
+    return view('terms', ['title' => 'Terms & Cobditions']);
+})->name('terms_views');
+
 Route::get('/cek-invoice', [CekInvoiceController::class, 'index'])->name('cek_invoice_view');
 Route::get('/cek-invoice/canceled/{invoice}', [CekInvoiceController::class, 'canceled'])->name('cek_invoice_canceled');
 

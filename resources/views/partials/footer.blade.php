@@ -17,10 +17,10 @@
                 <a href="{{ route('cek_invoice_view') }}" class="mr-4 hover:underline md:mr-6 ">Cek Invoice</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                <a href="{{ route('privacy_policy_views') }}" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Terms & Conditions</a>
+                <a href="{{ route('terms_views') }}" class="mr-4 hover:underline md:mr-6">Terms & Conditions</a>
             </li>
         </ul>
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {{ date('Y') }} <a href="https://kangkoding.com" class="hover:underline">Kang Koding</a>. All Rights Reserved.</span>
