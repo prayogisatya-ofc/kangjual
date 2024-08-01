@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    {{ $title }}
+    Kang Jual - {{ $title }}
 @endsection
 
 @section('content')
@@ -125,7 +125,7 @@
             <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl">
               Kamu bingung atau punya pertanyaan terkait source code?
             </h1>
-            <p class="mb-6 text-gray-500 dark:text-gray-400">Kami di Kang Jual siap membantu kamu dengan pertanyaan atau masalah apa pun yang kamu hadapi. Apakah kamu memerlukan bantuan teknis, panduan untuk memilih source code yang tepat, atau informasi mengenai proses transaksi?</p>
+            <p class="mb-6 text-gray-500 dark:text-gray-400 font-light">Kami di Kang Jual siap membantu kamu dengan pertanyaan atau masalah apa pun yang kamu hadapi. Apakah kamu memerlukan bantuan teknis, panduan untuk memilih source code yang tepat, atau informasi mengenai proses transaksi?</p>
             <a href="https://wa.me/6285158117703?text=Haloo+min+saya+butuh+bantuan" class="inline-flex items-center justify-center rounded-full bg-primary-500 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Hubungi kami
                 <svg class="w-5 h-5 ml-2 -mr-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">

@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    {{ $title }}
+    {{ $title }} - Kang Jual
 @endsection
 
 @section('content')

@@ -5,7 +5,7 @@
             <img src="{{ asset('img/logo-white.png') }}" class="dark:block hidden mr-3 h-10 sm:h-12" alt="KangJual Logo" />
             <span>Kang <span class="text-primary-500">Jual</span></span>    
         </a>
-        <p class="my-6 text-gray-500 dark:text-gray-400">Tempat terbaik untuk mendapatkan source code aplikasi dan website berkualitas. Jelajahi koleksi kami dan temukan solusi yang tepat untuk proyek Anda.</p>
+        <p class="my-6 text-gray-500 dark:text-gray-400 font-light">Tempat terbaik untuk mendapatkan source code aplikasi dan website berkualitas. Jelajahi koleksi kami dan temukan solusi yang tepat untuk proyek Anda.</p>
         <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
             <li>
                 <a href="{{ route('project_view') }}" class="mr-4 hover:underline md:mr-6">Project</a>

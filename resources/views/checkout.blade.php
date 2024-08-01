@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    {{ $title }}
+    {{ $title }} - Kang Jual
 @endsection
 
 @section('content')
@@ -70,7 +70,7 @@
           </div>
         </div>
   
-        <p class="mt-6 text-center text-gray-500 dark:text-gray-400 sm:mt-8 lg:text-left">
+        <p class="mt-6 text-center font-light text-gray-500 dark:text-gray-400 sm:mt-8 lg:text-left">
           Pastikan alamat email kamu benar ya, karena informasi transaksi akan dikirimkan ke email kamu. Proses pembayaran dilakukan dengan <a href="https://midtrans.com/" title="" class="font-medium text-primary-500 underline hover:no-underline dark:text-primary-500">Midtrans</a> untuk produk ini.
         </p>
       </div>

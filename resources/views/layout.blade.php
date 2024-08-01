@@ -3,10 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kang Koding">
+        <meta name="description" content="Temukan solusi aplikasi dan website yang siap pakai, dirancang untuk mempercepat pengembangan dan meningkatkan produktivitas mu.">
+        <meta property="og:image" content="@yield('image', env('APP_URL').'/favicon.ico')" />
 
-        <title>@yield('title') - Kang Jual</title>
+        <title>@yield('title')</title>
 
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

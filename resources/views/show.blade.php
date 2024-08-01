@@ -1,7 +1,9 @@
 @extends('layout')
 
+@section('image', asset(env('APP_URL').'/storage/'.$product->thumbnail))
+
 @section('title')
-    {{ $title }}
+    {{ $title }} - Kang Jual
 @endsection
 
 @section('content')
